@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <link rel='stylesheet' href='./style.css' />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='./script.js' defer></script>
+  </head>
+  <body>
+    <h1>Acme Customers <span class='vip'>VIP</span></h1>
+
+    <div id='customerForm'>
+        <form>
+          <h2>Customer Input Form</h2>
+          <div class='input-row'>
+            <label for='name'>Name</label>
+            <input name='name' id='name' value=""/>
+          </div>
+          <div class='input-row'>
+            <label for='email'>Email</label>
+            <input name='email' value="" id='email'/>
+          </div>
+          <div class='input-row'>
+            <label for='isVIP'>IsVIP</label>
+            <input type='checkbox' id='isVIP' name='isVIP'/>
+          </div>
+          <ul id='errors'>
+          </ul>
+          <button disabled id='createButton'>Create</button>
+        </form>
+    </div>
+
+    <div id='customersContainer'>
+    </div>
+
+    <script>
+    </script>
+  </body>
+</html>

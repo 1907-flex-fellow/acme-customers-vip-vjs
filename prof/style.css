@@ -1,0 +1,66 @@
+body {
+  font-family: sans-serif;
+}
+
+.vip {
+  background-color: dodgerBlue;
+  color: white;
+}
+
+.customer {
+  margin: 1rem 0;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.customer h3  {
+  flex: 3
+}
+
+.customer button {
+  flex: 1
+}
+
+.status {
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+form {
+  padding: 1rem;
+  border: solid 1px black;
+}
+
+input, button {
+  height: 1.75rem;
+  font-size: 1.0rem;
+}
+
+.input-row {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.input-row label {
+  flex: 1;
+}
+
+.input-row input {
+  flex: 2;
+}
+
+#errors {
+  color: red;
+}
+
+@media (max-width:600px){
+  .input-row{
+    flex-direction: column;
+  }
+  .customer {
+    flex-direction: column;
+  }
+}
